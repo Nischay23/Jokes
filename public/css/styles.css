@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0; /* Removed padding to center everything */
+    background-color: #121212; /* Dark background */
+    color: #f2f2f2; /* Light text color */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center elements vertically */
+    align-items: center; /* Center elements horizontally */
+    height: 100vh; /* Full viewport height */
+  }
+  
+  h1 {
+    color: #e0e0e0; /* Lighter color for headings */
+    font-size: 3em; /* Increased font size */
+    margin-bottom: 20px; /* Add space below the heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  }
+  
+  p {
+    font-size: 1.2em; /* Larger font size for paragraph */
+    margin: 10px 0; /* Spacing for paragraphs */
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green button color */
+    color: white;
+    padding: 15px 30px; /* Increased button size */
+    margin: 10px;
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 18px; /* Increased font size */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s; /* Smooth transition for effects */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5); /* Stronger shadow on hover */
+  }
+  
+  button:active {
+    transform: translateY(0); /* Return to original position on click */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Reset shadow */
+  }
+  

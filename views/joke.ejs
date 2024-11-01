@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Joke</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Here’s your joke!</h1>
+    <% if (joke.type === 'single') { %>
+        <p><%= joke.joke %></p>
+    <% } else { %>
+        <p><%= joke.setup %></p>
+        <p><strong><%= joke.delivery %></strong></p>
+    <% } %>
+    <a href="/joke"><button>Get Another Joke</button></a>
+    <a href="/"><button>Back to Home</button></a>
+</body>
+</html>
